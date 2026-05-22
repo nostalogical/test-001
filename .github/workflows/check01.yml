@@ -1,7 +1,6 @@
 name: Simple check
 
 on:
-  push:
   pull_request:
 
 jobs:
