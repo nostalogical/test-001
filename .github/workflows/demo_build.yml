@@ -3,7 +3,7 @@ name: Demo build commit
 on:
   push:
     branches:
-      - 'release/**'
+      - 'rules/**'
       - 'protected/**'
 
 defaults:
