@@ -1,0 +1,11 @@
+name: Simple check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check01:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "OK"
